@@ -1,0 +1,9 @@
+{
+	"name": "manish-adfaccount1",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6a281a68-b107-4ff6-804e-969c520352dd",
+		"tenantId": "133f5141-9d88-4439-83cf-af7a35845c60"
+	}
+}
