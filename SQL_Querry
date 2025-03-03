@@ -1,0 +1,16 @@
+select * from [dbo].[water_mark]
+
+select min(date_id) as min_date from [dbo].[source_cars_data]
+
+insert into [dbo].[water_mark] values ('DT00000')
+
+select min(date_id) as min_date from [dbo].[source_cars_data]
+
+truncate table [dbo].[water_mark]
+
+create procedure updatewatertable @lastload varchar(200)
+as
+begin
+begin transaction;
+update [dbo].[water_mark] set last_load = @lastload
+end;
