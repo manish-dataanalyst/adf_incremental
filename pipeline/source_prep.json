@@ -179,7 +179,7 @@
 						"referenceName": "dsgit_csv",
 						"type": "DatasetReference",
 						"parameters": {
-							"load_flag": "IncrementalSales.csv"
+							"load_flag": "SalesData.csv"
 						}
 					}
 				],
