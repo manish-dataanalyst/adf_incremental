@@ -15,7 +15,10 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "anshlambagit/NYC-TAXI-DE-Project/refs/heads/main/Raw%20Data/taxi_zone_lookup.csv"
+				"relativeUrl": {
+					"value": "anshlambagit/NYC-TAXI-DE-Project/refs/heads/main/Raw%20Data/@{dataset().file_name}",
+					"type": "Expression"
+				}
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
