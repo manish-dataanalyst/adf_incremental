@@ -41,24 +41,48 @@
 						"mappings": [
 							{
 								"source": {
-									"name": "trip_type",
+									"name": "LocationID",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "trip_type",
+									"name": "LocationID",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "description",
+									"name": "Borough",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "description",
+									"name": "Borough",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "Zone",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Zone",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "service_zone",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "service_zone",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
