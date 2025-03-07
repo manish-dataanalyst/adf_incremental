@@ -76,7 +76,7 @@
 						"referenceName": "df_git_taxi",
 						"type": "DatasetReference",
 						"parameters": {
-							"filetopic": "trip_type.csv"
+							"filetopic": "taxi_zone_lookup.csv"
 						}
 					}
 				],
