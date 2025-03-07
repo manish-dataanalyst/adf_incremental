@@ -28,7 +28,8 @@
 					"sink": {
 						"type": "ParquetSink",
 						"storeSettings": {
-							"type": "AzureBlobFSWriteSettings"
+							"type": "AzureBlobFSWriteSettings",
+							"copyBehavior": "FlattenHierarchy"
 						},
 						"formatSettings": {
 							"type": "ParquetWriteSettings"
@@ -40,48 +41,24 @@
 						"mappings": [
 							{
 								"source": {
-									"name": "LocationID",
+									"name": "trip_type",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "LocationID",
+									"name": "trip_type",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "Borough",
+									"name": "description",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Borough",
-									"type": "String",
-									"physicalType": "UTF8"
-								}
-							},
-							{
-								"source": {
-									"name": "Zone",
-									"type": "String",
-									"physicalType": "String"
-								},
-								"sink": {
-									"name": "Zone",
-									"type": "String",
-									"physicalType": "UTF8"
-								}
-							},
-							{
-								"source": {
-									"name": "service_zone",
-									"type": "String",
-									"physicalType": "String"
-								},
-								"sink": {
-									"name": "service_zone",
+									"name": "description",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
