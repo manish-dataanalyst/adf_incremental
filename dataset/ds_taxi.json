@@ -1,0 +1,27 @@
+{
+	"name": "ds_taxi",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_git_taxi",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"file_name": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "anshlambagit/NYC-TAXI-DE-Project/tree/main/Raw%20Data"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
