@@ -89,7 +89,7 @@
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "units_sold",
+									"name": "Units_Sold",
 									"type": "Int64",
 									"physicalType": "bigint"
 								}
@@ -101,7 +101,7 @@
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "date_id",
+									"name": "Date_ID",
 									"type": "String",
 									"physicalType": "varchar"
 								}
@@ -113,7 +113,7 @@
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "day",
+									"name": "Day",
 									"type": "Int32",
 									"physicalType": "int"
 								}
@@ -125,7 +125,7 @@
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "month",
+									"name": "Month",
 									"type": "Int32",
 									"physicalType": "int"
 								}
@@ -137,7 +137,7 @@
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "year",
+									"name": "Year",
 									"type": "Int32",
 									"physicalType": "int"
 								}
@@ -149,7 +149,7 @@
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "branch_name",
+									"name": "Branch_Name",
 									"type": "String",
 									"physicalType": "varchar"
 								}
@@ -161,7 +161,7 @@
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "dealer_name",
+									"name": "Dealer_Name",
 									"type": "String",
 									"physicalType": "varchar"
 								}
